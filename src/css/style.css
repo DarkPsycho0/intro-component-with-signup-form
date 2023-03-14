@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(../images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.description{
+    color: #ffffff;
+    width: 550px;
+}
+.description h1{
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.form p:first-child{
+    background-color: hsl(248, 32%, 49%);
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 10px hsla(0, 65%, 65%, 50%);
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 540px;
+    min-height: 475px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px hsla(0, 65%, 65%, 50%);
+}
+form input{
+    height: 55px;
+    padding: 0px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid hsl(249, 10%, 26%);
+    border-radius: 5px;
+}
+form input:invalid{
+    border: 2px solid hsl(0, 100%, 74%);
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+form p{
+    font-size: 12px;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+form #submit{
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px hsl(154, 56%, 43%);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+form #submit:hover {
+    background-color: hsl(154, 62%, 68%);
+    box-shadow: 0 4px hsl(154, 63%, 54%);
+}
+form p a{
+    color: hsl(0, 100%, 74%);
+    cursor: pointer;
+    font-weight: 600;
+}
