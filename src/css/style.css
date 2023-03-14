@@ -37,7 +37,6 @@ body{
 form{
     display: flex;
     flex-direction: column;
-    gap: 20px;
     width: 540px;
     min-height: 475px;
     padding: 40px;
@@ -48,18 +47,26 @@ form{
 form input{
     height: 55px;
     padding: 0px 30px;
+    margin: 10px;
     font-weight: 700;
     font-size: 15px;
     border: 1px solid hsl(249, 10%, 26%);
     border-radius: 5px;
 }
-form input:invalid{
+.invalid{
     border: 2px solid hsl(0, 100%, 74%);
     background-image: url(../images/icon-error.svg);
     background-repeat: no-repeat;
     background-position: 95% 50%;
 }
-form p{
+form .error{
+    display: flex;
+    color: hsl(0, 100%, 74%);
+    font-size: 12px;
+    flex-direction: row-reverse;
+
+}
+form p:last-child{
     font-size: 12px;
     text-align: center;
     color: hsl(246, 25%, 77%);
@@ -83,4 +90,7 @@ form p a{
     color: hsl(0, 100%, 74%);
     cursor: pointer;
     font-weight: 600;
+}
+form .none{
+    display: none;
 }

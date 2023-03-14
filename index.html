@@ -20,10 +20,14 @@
         <div class="form">
             <p>Try it free 7 days then $20/mo. thereafter</p>
             <form method="get" action="index.html">
-                <input type="text" id="first-name" name="first-name" placeholder="First Name">
-                <input type="text" id="last-name" name="last-name" placeholder="Last Name">
-                <input type="email" id="email-address" name="email-address" placeholder="Email Address">
-                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="text" name="first-name" placeholder="First Name">
+                <p class="none error">First Name cannot be empty</p>
+                <input type="text" name="last-name" placeholder="Last Name">
+                <p class="none error">Last Name cannot be empty</p>
+                <input type="email" name="email-address" placeholder="Email Address">
+                <p class="none error">Looks like this is not an email</p>
+                <input type="password" name="password" placeholder="Password">
+                <p class="none error">Password cannot be empty</p>
                 <input type="submit" id="submit" value="Claim your free trial">
                 <p>By clicking the button, you are agreeing to our <a>Terms and Services</a></p>
             </form>
