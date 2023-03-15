@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,29 +11,39 @@
     <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
     <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
+
 <body>
     <main class="container">
         <div class="description">
             <h1>Learn to code by watching others</h1>
-            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
                 but understanding how developers think is invaluable. </p>
         </div>
         <div class="form">
             <p>Try it free 7 days then $20/mo. thereafter</p>
             <form method="get" action="index.html">
-                <input type="text" name="first-name" placeholder="First Name">
-                <p class="none error">First Name cannot be empty</p>
-                <input type="text" name="last-name" placeholder="Last Name">
-                <p class="none error">Last Name cannot be empty</p>
-                <input type="email" name="email-address" placeholder="Email Address">
-                <p class="none error">Looks like this is not an email</p>
-                <input type="password" name="password" placeholder="Password">
-                <p class="none error">Password cannot be empty</p>
+                <div class="input">
+                    <input type="text" name="first-name" placeholder="First Name">
+                    <p class="none error">First Name cannot be empty</p>
+                </div>
+                <div class="input">
+                    <input type="text" name="last-name" placeholder="Last Name">
+                    <p class="none error">Last Name cannot be empty</p>
+                </div>
+                <div class="input">
+                    <input type="email" name="email-address" placeholder="Email Address">
+                    <p class="none error">Looks like this is not an email</p>
+                </div>
+                <div class="input">
+                    <input type="password" name="password" placeholder="Password">
+                    <p class="none error">Password cannot be empty</p>
+                </div>
                 <input type="submit" id="submit" value="Claim your free trial">
-                <p>By clicking the button, you are agreeing to our <a>Terms and Services</a></p>
+                <p class="terms">By clicking the button, you are agreeing to our <a>Terms and Services</a></p>
             </form>
         </div>
     </main>
     <script src="./src/js/index.js"></script>
 </body>
+
 </html>

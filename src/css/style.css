@@ -44,10 +44,11 @@ form{
     border-radius: 10px;
     box-shadow: 0 10px hsla(0, 65%, 65%, 50%);
 }
-form input{
+form div input{
     height: 55px;
+    width: 100%;
     padding: 0px 30px;
-    margin: 10px;
+    margin: 10px 0;
     font-weight: 700;
     font-size: 15px;
     border: 1px solid hsl(249, 10%, 26%);
@@ -64,16 +65,18 @@ form .error{
     color: hsl(0, 100%, 74%);
     font-size: 12px;
     flex-direction: row-reverse;
-
+    font-style: italic;
 }
-form p:last-child{
+form .terms{
     font-size: 12px;
     text-align: center;
     color: hsl(246, 25%, 77%);
 }
 form #submit{
     background-color: hsl(154, 59%, 51%);
+    height: 55px;
     border: none;
+    margin: 10px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #ffffff;
