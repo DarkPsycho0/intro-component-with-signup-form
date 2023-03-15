@@ -14,7 +14,26 @@ Users should be able to:
   - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
 
-  <h2 align="center">
-    🚧 🏗️ under construction🏗️ 🚧
-</h2>
-<img src="./src/images/Page_Under_Construction.png">
+#### Desktop Screenshot 🖥️
+
+<img src="./src/images/desktop-screenshot.png">
+
+#### Active State 🖥️
+<img src="./src/images/active-states.png">
+
+#### Mobile Screenshot 📱
+
+<img src="./src/images/mobile-screenshot.png">
+
+### link 🔗
+
+- Live Site URL: https://lkiryu.github.io/intro-component-with-signup-form/
+
+### Built with 🛠️
+
+- HTML5
+- CSS
+- JS
+---
+### Author 👨‍💻
+ Made by Matheus Antonio
