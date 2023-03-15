@@ -1,0 +1,41 @@
+@media(max-width:1024px){
+    .container{
+        padding: 20px 40px;
+    }
+    .description{
+        width: 500px;
+    }
+    .description h1{
+        font-size: 45px;
+    }
+    .description p{
+        font-size: 15px;
+    }
+    form{
+        width: 460px;
+    }
+    form .terms{
+        font-size: 11px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+    }
+    .description p{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:425px){
+    .container{
+        padding: 20px 0;
+    }
+    .description, .form, form{
+        width: 320px;
+    }
+    .form p:first-child{
+        font-size: 19px;
+    }
+}
