@@ -86,7 +86,7 @@ form #submit{
     transition: 0.3s ease-in;
 }
 form #submit:hover {
-    background-color: hsl(154, 62%, 68%);
+    opacity: 80%;
     box-shadow: 0 4px hsl(154, 63%, 54%);
 }
 form p a{
